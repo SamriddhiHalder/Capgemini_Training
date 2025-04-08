@@ -6,7 +6,7 @@ public class Driverpayment {
 		Creditcard.processPayment();
 		
 		Payment PayPal=new PayPal(666.9,"ggj44");
-		PayPal5.processPayment();
+		PayPal.processPayment();
 	}
 
 }

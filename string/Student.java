@@ -7,6 +7,7 @@ public class Student {
 	int id;
 	String gender;
 	double marks;
+	private double salary;
 	public Student(String name,int id,String gender,double marks) {
 		this.name=name;
 		this.id=id;

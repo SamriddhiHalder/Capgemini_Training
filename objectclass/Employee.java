@@ -1,9 +1,9 @@
 package objectclass;
 
 public class Employee {
-	private String name;
-	private int id;
-	private double salary;
+	public String name;
+	public int id;
+	public double salary;
 	public Employee(String name,int id, double salary) {
 		this.name=name;
 		this.id=id;

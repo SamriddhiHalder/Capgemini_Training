@@ -12,8 +12,13 @@ public class MathClass {
 		System.out.println(Math.subtractExact(10,20));
 		absolute(subtract(10,20));
 	}
-	public static void absolute(int x) {
+	private static int subtract(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	public static int absolute(int x) {
 		System.out.println(Math.abs(x));
+		return x;
 	}
 	public static int absolute(int a, int b) {
 		return absolute(subtract(a,b));

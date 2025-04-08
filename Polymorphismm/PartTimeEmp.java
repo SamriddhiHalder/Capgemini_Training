@@ -3,7 +3,7 @@ package Polymorphismm;
 public class PartTimeEmp extends Employee {
 	private int workingHour;
 	public PartTimeEmp(String name,double salary,int workingHour) {
-		super(name,salary);
+		super(name,salary, workingHour);
 		this.workingHour=workingHour;
 		
 	}
