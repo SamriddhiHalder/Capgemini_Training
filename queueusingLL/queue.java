@@ -59,5 +59,10 @@ public class queue {
         System.out.println();
     }
 
+	public int peek() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 }
